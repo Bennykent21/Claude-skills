@@ -1,0 +1,8 @@
+{
+  "name": "supabase",
+  "description": "Supabase's official skills: platform guidance and Postgres/RLS best practices.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oghosa Benedict"
+  }
+}

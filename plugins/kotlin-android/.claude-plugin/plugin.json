@@ -1,0 +1,8 @@
+{
+  "name": "kotlin-android",
+  "description": "Kotlin and Android: Jetpack Compose state, components, animation, performance, testing, adaptive layouts, Navigation 3, edge-to-edge, security, coroutines/Flow and Java-to-Kotlin.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oghosa Benedict"
+  }
+}

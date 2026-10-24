@@ -1,0 +1,8 @@
+{
+  "name": "react-web",
+  "description": "React and Next.js: Vercel performance and composition patterns, view transitions, App Router, state management, Tailwind design systems.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Oghosa Benedict"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "bennykent-skills",
+  "description": "Oghosa's curated Claude Code skills, grouped by stack. Enable only the packs a project needs.",
+  "owner": {
+    "name": "Oghosa Benedict"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      },
+      "description": "Upstream: planning, TDD, systematic debugging, code review and verification workflows. Good in every project."
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      },
+      "description": "Upstream: searchable UI/UX rules, palettes, font pairings and per-stack guidelines (needs Python 3)."
+    },
+    {
+      "name": "design",
+      "source": "./plugins/design",
+      "description": "Stack-neutral UI design: distinctive visual direction (Anthropic frontend-design) and Vercel web interface guidelines review."
+    },
+    {
+      "name": "flutter",
+      "source": "./plugins/flutter",
+      "description": "Flutter UI design, widget patterns, accessibility, responsive layout, code review and the official architecture guide."
+    },
+    {
+      "name": "supabase",
+      "source": "./plugins/supabase",
+      "description": "Supabase's official skills: platform guidance and Postgres/RLS best practices."
+    },
+    {
+      "name": "react-web",
+      "source": "./plugins/react-web",
+      "description": "React and Next.js: Vercel performance and composition patterns, view transitions, App Router, state management, Tailwind design systems."
+    },
+    {
+      "name": "typescript",
+      "source": "./plugins/typescript",
+      "description": "TypeScript and JavaScript: advanced types, modern patterns, Node.js backends, testing."
+    },
+    {
+      "name": "react-native",
+      "source": "./plugins/react-native",
+      "description": "React Native and Expo: Vercel best practices, architecture and mobile design."
+    },
+    {
+      "name": "kotlin-android",
+      "source": "./plugins/kotlin-android",
+      "description": "Kotlin and Android: Jetpack Compose state, components, animation, performance, testing, adaptive layouts, Navigation 3, edge-to-edge, security, coroutines/Flow and Java-to-Kotlin."
+    }
+  ]
+}
