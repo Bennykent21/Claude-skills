@@ -7,8 +7,9 @@ so a few relevant skills work better than dozens of overlapping ones.
 | Pack | Use it for | Skills |
 | --- | --- | --- |
 | `superpowers` | Every project | Upstream [obra/superpowers](https://github.com/obra/superpowers): brainstorming, plans, TDD, systematic debugging, code review, verification |
-| `design` | Any UI work | frontend-design, web-design-guidelines, emil-design-eng, create-design-md, review-animations, mobile-native, break-ui, webapp-testing |
-| `ui-ux-pro-max` | Any UI work | Upstream [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (searchable design-system data; requires Python) |
+| `design` | Any UI work | frontend-design, web-design-guidelines, emil-design-eng, create-design-md, review-animations, mobile-native, break-ui, webapp-testing, **neumorphism**, **liquid-glass**, **nothing-design** |
+| `ui-ux-pro-max` | Any UI work | Upstream [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (searchable design-system data; includes neumorphism, glassmorphism, claymorphism, and more; requires Python) |
+| `ui-toolkit` | Optional web UI work | shadcn and Magic UI component registries, plus Playwright browser verification; requires Node.js 20+ |
 | `impeccable` | Deep UI critique, polish, and visual refinement | Complete upstream [pbakaus/impeccable](https://github.com/pbakaus/impeccable) plugin, including commands and scripts |
 | `flutter` | Flutter / Dart apps | flutter-ui-design, flutter-ui-patterns, flutter-accessibility, flutter-responsive-layout, flutter-code-review, flutter-apply-architecture-best-practices |
 | `supabase` | Supabase backends | supabase, supabase-postgres-best-practices |
@@ -24,6 +25,14 @@ so a few relevant skills work better than dozens of overlapping ones.
 /plugin install superpowers@bennykent-skills
 /plugin install design@bennykent-skills
 ```
+
+For web UI component discovery and browser QA, opt in separately:
+
+```text
+/plugin install ui-toolkit@bennykent-skills
+```
+
+The UI toolkit starts three MCP servers (shadcn registry, Magic UI registry, Playwright). It requires Node.js 20+ for Playwright. Install it only on projects where you want those tools enabled.
 
 Then install stack packs where you need them, choosing "project" scope so
 they only load in that repository.
@@ -63,6 +72,9 @@ The packs under `plugins/` include copied upstream skill prompts and supporting 
 - [anthropics/skills](https://github.com/anthropics/skills) (frontend-design, webapp-testing)
 - [emilkowalski/skills](https://github.com/emilkowalski/skills) (emil-design-eng, review-animations, mobile-native, break-ui)
 - [ibelick/ui-skills](https://github.com/ibelick/ui-skills) (create-design-md)
+- [dominikmartn/nothing-design-skill](https://github.com/dominikmartn/nothing-design-skill) (Nothing-inspired UI; MIT)
+- [stormaref/LiquidGlassSkill](https://github.com/stormaref/LiquidGlassSkill) (Liquid Glass; MIT; includes Angular refraction code and CSS fallback)
+- [shadcn/ui MCP](https://ui.shadcn.com/docs/mcp), [Magic UI MCP](https://github.com/magicuidesign/mcp), and [Microsoft Playwright MCP](https://github.com/microsoft/playwright) (configured in optional `ui-toolkit` pack)
 - [pbakaus/impeccable](https://github.com/pbakaus/impeccable) (complete upstream plugin, registered as an external pack)
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (complete upstream plugin, registered as an external pack)
 - [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (MIT)
