@@ -7,8 +7,9 @@ so a few relevant skills work better than dozens of overlapping ones.
 | Pack | Use it for | Skills |
 | --- | --- | --- |
 | `superpowers` | Every project | Upstream [obra/superpowers](https://github.com/obra/superpowers): brainstorming, plans, TDD, systematic debugging, code review, verification |
-| `design` | Any UI work | frontend-design, web-design-guidelines |
-| `ui-ux-pro-max` | Any UI work | Upstream [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| `design` | Any UI work | frontend-design, web-design-guidelines, emil-design-eng, create-design-md, review-animations, mobile-native, break-ui, webapp-testing |
+| `ui-ux-pro-max` | Any UI work | Upstream [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (searchable design-system data; requires Python) |
+| `impeccable` | Deep UI critique, polish, and visual refinement | Complete upstream [pbakaus/impeccable](https://github.com/pbakaus/impeccable) plugin, including commands and scripts |
 | `flutter` | Flutter / Dart apps | flutter-ui-design, flutter-ui-patterns, flutter-accessibility, flutter-responsive-layout, flutter-code-review, flutter-apply-architecture-best-practices |
 | `supabase` | Supabase backends | supabase, supabase-postgres-best-practices |
 | `react-web` | React / Next.js | react-best-practices, composition-patterns, react-view-transitions, nextjs-app-router-patterns, react-state-management, tailwind-design-system |
@@ -57,10 +58,13 @@ Starter sets:
 
 ## Sources and licences
 
-The packs under `plugins/` are copies of open-source skills, taken on
-24 Oct 2026. Each skill folder keeps its upstream licence file.
+The packs under `plugins/` include copied upstream skill prompts and supporting files. External packs such as UI/UX Pro Max and Impeccable are registered directly from their upstream repositories so their scripts, data, and command references remain intact. Check each upstream repository for its current licence and attribution requirements.
 
-- [anthropics/skills](https://github.com/anthropics/skills) (frontend-design)
+- [anthropics/skills](https://github.com/anthropics/skills) (frontend-design, webapp-testing)
+- [emilkowalski/skills](https://github.com/emilkowalski/skills) (emil-design-eng, review-animations, mobile-native, break-ui)
+- [ibelick/ui-skills](https://github.com/ibelick/ui-skills) (create-design-md)
+- [pbakaus/impeccable](https://github.com/pbakaus/impeccable) (complete upstream plugin, registered as an external pack)
+- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (complete upstream plugin, registered as an external pack)
 - [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) (MIT)
 - [wshobson/agents](https://github.com/wshobson/agents) (MIT)
 - [thiennc-tesoglobal/flutter-skills](https://github.com/thiennc-tesoglobal/flutter-skills) (BSD-3-Clause)
