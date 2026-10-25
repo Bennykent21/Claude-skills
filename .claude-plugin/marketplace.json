@@ -32,7 +32,7 @@
     {
       "name": "design",
       "source": "./plugins/design",
-      "description": "Stack-neutral UI craft: frontend-design, Vercel web interface guidelines, Emil design engineering, animation review, mobile-native web patterns, UI edge-case stress testing, and DESIGN.md extraction."
+      "description": "Specialist UI craft: distinctive frontend design, web guidelines, animation and responsive patterns, DESIGN.md extraction, Playwright webapp testing, plus explicit neumorphism, Liquid Glass and Nothing-inspired industrial UI recipes."
     },
     {
       "name": "ui-toolkit",
