@@ -22,9 +22,17 @@
       "description": "Upstream: searchable UI/UX rules, palettes, font pairings and per-stack guidelines (needs Python 3)."
     },
     {
+      "name": "impeccable",
+      "source": {
+        "source": "github",
+        "repo": "pbakaus/impeccable"
+      },
+      "description": "Upstream complete Impeccable plugin: frontend design critique, polish, audit, command playbooks, scripts, and visual quality checks."
+    },
+    {
       "name": "design",
       "source": "./plugins/design",
-      "description": "Stack-neutral UI design: distinctive visual direction (Anthropic frontend-design) and Vercel web interface guidelines review."
+      "description": "Stack-neutral UI craft: frontend-design, Vercel web interface guidelines, Emil design engineering, animation review, mobile-native web patterns, UI edge-case stress testing, and DESIGN.md extraction."
     },
     {
       "name": "flutter",
