@@ -35,6 +35,11 @@
       "description": "Stack-neutral UI craft: frontend-design, Vercel web interface guidelines, Emil design engineering, animation review, mobile-native web patterns, UI edge-case stress testing, and DESIGN.md extraction."
     },
     {
+      "name": "ui-toolkit",
+      "source": "./plugins/ui-toolkit",
+      "description": "Optional web UI MCP toolkit: search/install shadcn components, discover Magic UI effects, and verify rendered interfaces with Playwright."
+    },
+    {
       "name": "flutter",
       "source": "./plugins/flutter",
       "description": "Flutter UI design, widget patterns, accessibility, responsive layout, code review and the official architecture guide."
